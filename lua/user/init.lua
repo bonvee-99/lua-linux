@@ -1,0 +1,6 @@
+require("user.plugged")
+require("user.set")
+require("user.treesitter")
+require("user.lsp")
+require("user.git")
+require("user.vimcmd")
