@@ -1,2 +1,2 @@
--- root
+-- lua root
 require("user")
