@@ -3,7 +3,7 @@ vim.cmd([[
 " closing tags
 let g:closetag_filenames = '*x.html,*.jsx,*.tsx, *.vue'
 
-colorscheme gruvbox 
+colorscheme gruvbox
 
 set guifont=DroidSansMono\ Nerd\ Font\ 18
 set termguicolors
@@ -27,12 +27,21 @@ hi Normal guibg=NONE ctermbg=NONE
 
 " telescope
 noremap <silent> ff :Telescope find_files<CR>
+noremap <silent> fg :Telescope live_grep<CR>
+
 " lightline
 set noshowmode
 
 let g:lightline = {
- \ 'colorscheme': 'gruvbox',
- \ }
+    \ 'colorscheme': 'gruvbox',
+    \ 'active': {
+    \   'left': [ [ 'mode', 'paste' ],
+    \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
+    \ },
+    \ 'component_function': {
+    \   'gitbranch': 'gitbranch#name'
+    \ },
+    \ }
 
 set clipboard+=unnamedplus
 
