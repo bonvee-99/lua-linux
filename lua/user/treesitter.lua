@@ -1,7 +1,7 @@
 -- treesitter
  require('nvim-treesitter.configs').setup {
    -- A list of parser names, or "all"
-   ensure_installed = {"javascript", "rst", "cpp", "c", "html", "typescript", "vue", "sparql", "go"},
+   ensure_installed = {"javascript", "rst", "cpp", "c", "html", "typescript", "vue", "sparql", "go", "python"},
  
    highlight = {
      enable = true,
