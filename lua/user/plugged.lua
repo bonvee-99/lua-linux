@@ -5,12 +5,14 @@ local Plug = vim.fn['plug#']
 vim.call('plug#begin', '~/.config/nvim/autoload/plugged')
 Plug('ellisonleao/gruvbox.nvim')
 Plug('preservim/nerdtree')
+Plug('Xuyuanp/nerdtree-git-plugin')
 Plug('ryanoasis/vim-devicons')
+Plug('tiagofumo/vim-nerdtree-syntax-highlight')
 Plug('neovim/nvim-lspconfig')
 Plug('williamboman/nvim-lsp-installer')
 Plug('nvim-treesitter/nvim-treesitter')
 Plug('alvan/vim-closetag')
-Plug('jiangmiao/auto-pairs')
+-- Plug('jiangmiao/auto-pairs')
 Plug('tpope/vim-surround')
 
 -- stuff for autocomplete/tree sitter/lsp
@@ -30,14 +32,15 @@ Plug('tpope/vim-commentary')
 Plug('itchyny/lightline.vim')
 
 -- markdown
-Plug('ellisonleao/glow.nvim')
-Plug('iamcco/markdown-preview.nvim')
+-- Plug('ellisonleao/glow.nvim')
+-- Plug('iamcco/markdown-preview.nvim')
 
 -- indent
 Plug('lukas-reineke/indent-blankline.nvim')
 
 -- git
-Plug('airblade/vim-gitgutter')
+-- Plug('airblade/vim-gitgutter')
+
 -- show in status bar
 Plug('itchyny/vim-gitbranch')
 

@@ -3,7 +3,7 @@ local set = vim.opt
 set.tabstop = 2
 set.shiftwidth = 2
 set.expandtab = true
-set.wrap = false 
+set.wrap = true
 set.mouse = 'a'
 -- theme
 set.background = 'dark'
