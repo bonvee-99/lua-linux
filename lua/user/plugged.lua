@@ -44,5 +44,8 @@ Plug('lukas-reineke/indent-blankline.nvim')
 -- show in status bar
 Plug('itchyny/vim-gitbranch')
 
+Plug 'mhinz/vim-startify'
+
+Plug('tveskag/nvim-blame-line')
 vim.call('plug#end')
 
