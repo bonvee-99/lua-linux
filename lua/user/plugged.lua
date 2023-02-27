@@ -4,6 +4,7 @@ local Plug = vim.fn['plug#']
 
 vim.call('plug#begin', '~/.config/nvim/autoload/plugged')
 Plug('ellisonleao/gruvbox.nvim')
+Plug('franbach/miramare')
 Plug('preservim/nerdtree')
 Plug('Xuyuanp/nerdtree-git-plugin')
 Plug('ryanoasis/vim-devicons')
@@ -14,6 +15,9 @@ Plug('nvim-treesitter/nvim-treesitter')
 Plug('alvan/vim-closetag')
 -- Plug('jiangmiao/auto-pairs')
 Plug('tpope/vim-surround')
+
+-- COC
+-- Plug('neoclide/coc.nvim')
 
 -- stuff for autocomplete/tree sitter/lsp
 Plug('hrsh7th/cmp-nvim-lsp')
@@ -47,5 +51,10 @@ Plug('itchyny/vim-gitbranch')
 Plug 'mhinz/vim-startify'
 
 Plug('tveskag/nvim-blame-line')
+
+Plug('tpope/vim-fugitive')
+Plug('gregsexton/gitv')
+
+
 vim.call('plug#end')
 

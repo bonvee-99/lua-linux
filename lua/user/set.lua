@@ -6,6 +6,6 @@ set.expandtab = true
 set.wrap = true
 set.mouse = 'a'
 -- theme
-set.background = 'dark'
+set.background = dark
 set.number = true
 set.encoding = 'UTF-8' set.relativenumber = true
